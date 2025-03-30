@@ -4,10 +4,11 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		                                            /*Update Interval*/ /*Update Signal*/
-	{"󰍛 ",      "$HOME/.config/dwmblocks/scripts/memory.sh",                30,                 0},
-	{" ",      "$HOME/.config/dwmblocks/scripts/disk.sh",                  30,                 0},
-	{"󰂀 ",      "$HOME/.config/dwmblocks/scripts/battery.sh",               30,                 0},
+	{"󰍛 ",      "$HOME/.config/dwmblocks/scripts/memory.sh",                10,                 0},
+	{" ",      "$HOME/.config/dwmblocks/scripts/disk.sh",                  60,                 0},
+	{"󰂀 ",      "$HOME/.config/dwmblocks/scripts/battery.sh",               60,                 0},
 	{"󰕾 ",      "$HOME/.config/dwmblocks/scripts/volume.sh",                0,                  10},
+	{" ",      "$HOME/.config/dwmblocks/scripts/brightness.sh",            0,                  11},
 	{" ",      "$HOME/.config/dwmblocks/scripts/date.sh",                  60,                 0},
 	{" ",      "whoami",                                                   0,                  0},
 	{"",        "$HOME/.config/dwmblocks/scripts/reboot-required.sh",       5,                  0},
